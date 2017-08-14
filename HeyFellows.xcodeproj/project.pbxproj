@@ -14,6 +14,10 @@
 		1AC944C91F41FE9300AA949A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC944C71F41FE9300AA949A /* LaunchScreen.storyboard */; };
 		1AC944D41F41FE9300AA949A /* HeyFellowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC944D31F41FE9300AA949A /* HeyFellowsTests.swift */; };
 		1AC944DF1F420DC300AA949A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AC944DE1F420DC300AA949A /* GoogleService-Info.plist */; };
+		1AC944E41F42339500AA949A /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC944E31F42339500AA949A /* ViewStyle.swift */; };
+		1AC944E71F42342C00AA949A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC944E61F42342C00AA949A /* Constants.swift */; };
+		1AC944E91F42356D00AA949A /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC944E81F42356D00AA949A /* ButtonStyle.swift */; };
+		1AC944EB1F423C5F00AA949A /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC944EA1F423C5F00AA949A /* FancyButton.swift */; };
 		BCAB1AFDD68F2B514DC62C82 /* Pods_HeyFellows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830229406378392AE9DD7B94 /* Pods_HeyFellows.framework */; };
 		E0E9F933A62062C9C44F5DAA /* Pods_HeyFellowsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA68002CDFA74EBA1071F25E /* Pods_HeyFellowsTests.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +44,10 @@
 		1AC944D31F41FE9300AA949A /* HeyFellowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyFellowsTests.swift; sourceTree = "<group>"; };
 		1AC944D51F41FE9300AA949A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AC944DE1F420DC300AA949A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1AC944E31F42339500AA949A /* ViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyle.swift; sourceTree = "<group>"; };
+		1AC944E61F42342C00AA949A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1AC944E81F42356D00AA949A /* ButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		1AC944EA1F423C5F00AA949A /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		205B28D29410E11B202524C9 /* Pods-HeyFellowsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyFellowsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeyFellowsTests/Pods-HeyFellowsTests.release.xcconfig"; sourceTree = "<group>"; };
 		6CB3916A553F07CFC1523773 /* Pods-HeyFellows.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyFellows.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeyFellows/Pods-HeyFellows.debug.xcconfig"; sourceTree = "<group>"; };
 		830229406378392AE9DD7B94 /* Pods_HeyFellows.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyFellows.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +99,7 @@
 		1AC944BD1F41FE9300AA949A /* HeyFellows */ = {
 			isa = PBXGroup;
 			children = (
+				1AC944E51F42341600AA949A /* Utils */,
 				1AC944E21F420E7400AA949A /* Controller */,
 				1AC944E11F420E6C00AA949A /* Model */,
 				1AC944E01F420E6200AA949A /* View */,
@@ -116,6 +125,9 @@
 		1AC944E01F420E6200AA949A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1AC944E31F42339500AA949A /* ViewStyle.swift */,
+				1AC944E81F42356D00AA949A /* ButtonStyle.swift */,
+				1AC944EA1F423C5F00AA949A /* FancyButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -133,6 +145,14 @@
 				1AC944C01F41FE9300AA949A /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		1AC944E51F42341600AA949A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1AC944E61F42342C00AA949A /* Constants.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		C8B5F455F76CA2B731F1CE7D /* Frameworks */ = {
@@ -358,8 +378,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC944E41F42339500AA949A /* ViewStyle.swift in Sources */,
 				1AC944C11F41FE9300AA949A /* SignInVC.swift in Sources */,
 				1AC944BF1F41FE9300AA949A /* AppDelegate.swift in Sources */,
+				1AC944EB1F423C5F00AA949A /* FancyButton.swift in Sources */,
+				1AC944E91F42356D00AA949A /* ButtonStyle.swift in Sources */,
+				1AC944E71F42342C00AA949A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
