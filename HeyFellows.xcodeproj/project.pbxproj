@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1AC944BF1F41FE9300AA949A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC944BE1F41FE9300AA949A /* AppDelegate.swift */; };
-		1AC944C11F41FE9300AA949A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC944C01F41FE9300AA949A /* ViewController.swift */; };
+		1AC944C11F41FE9300AA949A /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC944C01F41FE9300AA949A /* SignInVC.swift */; };
 		1AC944C41F41FE9300AA949A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC944C21F41FE9300AA949A /* Main.storyboard */; };
 		1AC944C61F41FE9300AA949A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC944C51F41FE9300AA949A /* Assets.xcassets */; };
 		1AC944C91F41FE9300AA949A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC944C71F41FE9300AA949A /* LaunchScreen.storyboard */; };
 		1AC944D41F41FE9300AA949A /* HeyFellowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC944D31F41FE9300AA949A /* HeyFellowsTests.swift */; };
+		1AC944DF1F420DC300AA949A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AC944DE1F420DC300AA949A /* GoogleService-Info.plist */; };
+		BCAB1AFDD68F2B514DC62C82 /* Pods_HeyFellows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830229406378392AE9DD7B94 /* Pods_HeyFellows.framework */; };
+		E0E9F933A62062C9C44F5DAA /* Pods_HeyFellowsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA68002CDFA74EBA1071F25E /* Pods_HeyFellowsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,7 @@
 /* Begin PBXFileReference section */
 		1AC944BB1F41FE9300AA949A /* HeyFellows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyFellows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC944BE1F41FE9300AA949A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AC944C01F41FE9300AA949A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AC944C01F41FE9300AA949A /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		1AC944C31F41FE9300AA949A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AC944C51F41FE9300AA949A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AC944C81F41FE9300AA949A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,13 @@
 		1AC944CF1F41FE9300AA949A /* HeyFellowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeyFellowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC944D31F41FE9300AA949A /* HeyFellowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyFellowsTests.swift; sourceTree = "<group>"; };
 		1AC944D51F41FE9300AA949A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC944DE1F420DC300AA949A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		205B28D29410E11B202524C9 /* Pods-HeyFellowsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyFellowsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeyFellowsTests/Pods-HeyFellowsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CB3916A553F07CFC1523773 /* Pods-HeyFellows.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyFellows.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeyFellows/Pods-HeyFellows.debug.xcconfig"; sourceTree = "<group>"; };
+		830229406378392AE9DD7B94 /* Pods_HeyFellows.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyFellows.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41674F3A41257D38B9E61D8 /* Pods-HeyFellowsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyFellowsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeyFellowsTests/Pods-HeyFellowsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACBE711D69EB3E4613DA95FE /* Pods-HeyFellows.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyFellows.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeyFellows/Pods-HeyFellows.release.xcconfig"; sourceTree = "<group>"; };
+		EA68002CDFA74EBA1071F25E /* Pods_HeyFellowsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyFellowsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAB1AFDD68F2B514DC62C82 /* Pods_HeyFellows.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E9F933A62062C9C44F5DAA /* Pods_HeyFellowsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +74,8 @@
 				1AC944BD1F41FE9300AA949A /* HeyFellows */,
 				1AC944D21F41FE9300AA949A /* HeyFellowsTests */,
 				1AC944BC1F41FE9300AA949A /* Products */,
+				DE006E49E9E1E15A4784EDC1 /* Pods */,
+				C8B5F455F76CA2B731F1CE7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +91,15 @@
 		1AC944BD1F41FE9300AA949A /* HeyFellows */ = {
 			isa = PBXGroup;
 			children = (
+				1AC944E21F420E7400AA949A /* Controller */,
+				1AC944E11F420E6C00AA949A /* Model */,
+				1AC944E01F420E6200AA949A /* View */,
 				1AC944BE1F41FE9300AA949A /* AppDelegate.swift */,
-				1AC944C01F41FE9300AA949A /* ViewController.swift */,
 				1AC944C21F41FE9300AA949A /* Main.storyboard */,
 				1AC944C51F41FE9300AA949A /* Assets.xcassets */,
 				1AC944C71F41FE9300AA949A /* LaunchScreen.storyboard */,
 				1AC944CA1F41FE9300AA949A /* Info.plist */,
+				1AC944DE1F420DC300AA949A /* GoogleService-Info.plist */,
 			);
 			path = HeyFellows;
 			sourceTree = "<group>";
@@ -96,6 +113,48 @@
 			path = HeyFellowsTests;
 			sourceTree = "<group>";
 		};
+		1AC944E01F420E6200AA949A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1AC944E11F420E6C00AA949A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1AC944E21F420E7400AA949A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AC944C01F41FE9300AA949A /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C8B5F455F76CA2B731F1CE7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				830229406378392AE9DD7B94 /* Pods_HeyFellows.framework */,
+				EA68002CDFA74EBA1071F25E /* Pods_HeyFellowsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE006E49E9E1E15A4784EDC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3916A553F07CFC1523773 /* Pods-HeyFellows.debug.xcconfig */,
+				ACBE711D69EB3E4613DA95FE /* Pods-HeyFellows.release.xcconfig */,
+				A41674F3A41257D38B9E61D8 /* Pods-HeyFellowsTests.debug.xcconfig */,
+				205B28D29410E11B202524C9 /* Pods-HeyFellowsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AC944D81F41FE9300AA949A /* Build configuration list for PBXNativeTarget "HeyFellows" */;
 			buildPhases = (
+				16FAAE0ED0C1BED0922BAE2A /* [CP] Check Pods Manifest.lock */,
 				1AC944B71F41FE9300AA949A /* Sources */,
 				1AC944B81F41FE9300AA949A /* Frameworks */,
 				1AC944B91F41FE9300AA949A /* Resources */,
+				328A3D2DB7343E541F38F786 /* [CP] Embed Pods Frameworks */,
+				1A1F0B490828EF43DD1BC4BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AC944DB1F41FE9300AA949A /* Build configuration list for PBXNativeTarget "HeyFellowsTests" */;
 			buildPhases = (
+				0B000DB5AC8725904A49D849 /* [CP] Check Pods Manifest.lock */,
 				1AC944CB1F41FE9300AA949A /* Sources */,
 				1AC944CC1F41FE9300AA949A /* Frameworks */,
 				1AC944CD1F41FE9300AA949A /* Resources */,
+				808E9A925A886E9CD0BC9DF6 /* [CP] Embed Pods Frameworks */,
+				9086EAF17662E60ECA78CDE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,7 +211,7 @@
 				TargetAttributes = {
 					1AC944BA1F41FE9300AA949A = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					1AC944CE1F41FE9300AA949A = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -181,6 +246,7 @@
 			files = (
 				1AC944C91F41FE9300AA949A /* LaunchScreen.storyboard in Resources */,
 				1AC944C61F41FE9300AA949A /* Assets.xcassets in Resources */,
+				1AC944DF1F420DC300AA949A /* GoogleService-Info.plist in Resources */,
 				1AC944C41F41FE9300AA949A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,12 +260,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B000DB5AC8725904A49D849 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		16FAAE0ED0C1BED0922BAE2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A1F0B490828EF43DD1BC4BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeyFellows/Pods-HeyFellows-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		328A3D2DB7343E541F38F786 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeyFellows/Pods-HeyFellows-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		808E9A925A886E9CD0BC9DF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeyFellowsTests/Pods-HeyFellowsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9086EAF17662E60ECA78CDE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeyFellowsTests/Pods-HeyFellowsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1AC944B71F41FE9300AA949A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AC944C11F41FE9300AA949A /* ViewController.swift in Sources */,
+				1AC944C11F41FE9300AA949A /* SignInVC.swift in Sources */,
 				1AC944BF1F41FE9300AA949A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,30 +498,37 @@
 		};
 		1AC944D91F41FE9300AA949A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB3916A553F07CFC1523773 /* Pods-HeyFellows.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HeyFellows/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bilkhan.HeyFellows;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1AC944DA1F41FE9300AA949A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBE711D69EB3E4613DA95FE /* Pods-HeyFellows.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HeyFellows/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bilkhan.HeyFellows;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		1AC944DC1F41FE9300AA949A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41674F3A41257D38B9E61D8 /* Pods-HeyFellowsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,6 +543,7 @@
 		};
 		1AC944DD1F41FE9300AA949A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205B28D29410E11B202524C9 /* Pods-HeyFellowsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -408,6 +575,7 @@
 				1AC944DA1F41FE9300AA949A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AC944DB1F41FE9300AA949A /* Build configuration list for PBXNativeTarget "HeyFellowsTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +584,7 @@
 				1AC944DD1F41FE9300AA949A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
